@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+
+
+/* 전체레이아웃 */
+#wrap { width: 100%;height: 8387px; max-width: 1738px; margin: 0 auto;  background: #fff; }
+
+
+/*헤더영역*/
+#header {max-width: 1738px; position:relative;  height: 131px;  overflow: hidden; background-color: #fff;}
+/* #header .header-wrap {  position: absolute; left: 284px; margin: 0 auto; */ /*width: 1170px; */  /* height: 131px; background: royalblue;} */
+#header .header-logo { position: absolute; left: 284px; top: 0; right: 0; box-sizing: border-box;}
+#header .header-utility { position: absolute;  top: 42px;  right: 355px; }
+#header .header-nav { position: absolute; right: 355px; top: 80px;  }
+#header .header-search {position:absolute; top: 0; right: 141px; z-index: 99;}
+
+/*슬라이드영역*/
+#slide {  height: 697px; }
+
+/*비주얼영역*/
+#visual {  max-width: 1738px; height: 745px; background-color: royalblue;}
+
+/*서비스 영역*/
+#service {  height: 1079px; }
+
+/*동영상 영역*/
+#video {  height: 1526px; }
+
+/*ourhuman 영역*/
+#ourhuman {  height: 1344px; }
+
+/*컬쳐 영역*/
+#cultures {  height: 600px; }
+
+/*파트너 영역*/
+#partner {  height:837px; }
+
+/*뉴스 영역*/
+#news {  height: 1127px; }
+
+/*푸터 영역*/
+#footer {  height: 210px; }

@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'OpenSans', sans-serif;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+
+
+/* 헤더영역 */
+
+
+#header .header-logo a {
+    display: block;  
+}
+#header .header-logo a img {
+    display: block;
+    text-align: center;
+    margin-top: 39px;
+}
+#header .header-utility {
+    
+    font-weight: bold;
+    font-family: 'OpenSans';  
+    
+}
+#header .header-utility a {
+    display: block;
+    color:#858585;  
+}
+
+#header .header-nav ul {  }
+#header .header-nav ul li {
+    display: inline-block;
+
+}
+#header .header-nav ul li a {
+  
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-family: 'OpenSans', sans-serif;
+  font-weight: bold;  
+}
+#header .header-nav ul li a:hover{
+    color: #0d4bde;
+    transition-duration: .5s;
+}
+#header .header-nav ul li:nth-child(1) a {
+    padding-left: 0;
+}
+#header .header-search {
+    width: 145px;
+    height: 155px;
+    background-color: #0d4bde; 
+      
+    padding: 50px 50px;
+    box-sizing: border-box;
+}
+#header .header-search a i {
+    display: block;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+#header .header-search a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center; 
+    width: 50px;
+    height: 57px; 
+    z-index: 99;    
+}
+
+
+/* 비주얼 영역 */
+#visual p:first-child {
+    color: #fff;
+    font-weight: bold;
+    font-family:'OpenSans';
+    font-size: 45px;
+}
