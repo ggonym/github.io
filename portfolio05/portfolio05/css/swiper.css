@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+      .swiper-container {
+        /* max-width: 1738px;      */
+        height: 697px;
+        z-index: 1;
+        /* opacity: 0.99; */
+        /* display: flex; */
+     
+      }
+			.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        /* display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        /* display: flex; */
+        /* -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; */ */
+      }
+
+      .swiper-slide img {
+        width: 100%;
+        height: 697px;
+        /* width: 1738px;     
+        height: 697px; */
+        /* object-fit: cover;             */
+      }
+         
+      .swiper-container {
+        position: relative;/*내가 작성*/
+      
+      }
+/*내가작성*/
+      /* .swiper-button-next, .swiper-button-prev {  
+        width: 50px;
+        height: 50px;
+        border: 1px solid #fff;
+        color: #fff;
+        font-size: 15px;
+      }
+      .swiper-button-next {
+        position: absolute;
+        left: 0;
+        top: 647px;
+      } */
+
+      .swiper-button-next:after, .swiper-button-prev:after {
+        display: none;
+        
+      }
+      .swiper-button-prev, .swiper-button-next {
+        width: 93px;
+        height: 88px;
+        position: absolute;
+        top: 609px;
+        margin-top: -1px;
+      }
+      .swiper-button-prev {               
+        background: url(../images/pre-ico.png) 50% 50% no-repeat;
+        background-color: #fff;        
+        left: 0;        
+      }
+      .swiper-button-next {
+        background: url(../images/next-ico.png) 50% 50% no-repeat;        
+        position: absolute;        
+        left: 93px;
+        background-color: #fff;
+      }
+
+      .swiper-button-prev:hover,  .swiper-button-next:hover {        
+        background-color: rgb(246, 246, 246, 0.8);
+      }
+
+      /* .swiper-container .swiper-wrapper div img {
+        width: 100%;        
+        height: auto;
+        object-fit: cover;   
+      } */
