@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+img { display: block;}
+ol, ul, li {list-style: none;}
+a { text-decoration: none; color: #000;}
+ 
+
+/*구글 웹폰트*/
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+/*구글 머티리얼 아이콘*/
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+   /* @font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("../fonts/OpenSans-Regular.ttf") format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+  */
+
+  /*버튼 */
+.btn {
+    width: 220px;
+    height: 73px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;  
+    justify-content: center;
+    align-items: center;
+}
+
+
+  /*마진*/
+.mgno { margin: 0;}
+.mg5a { margin: 5px; }
+
+/*마진 탑*/
+.mgtno { margin-top: 0;}
+.mg5t { margin-top: 5px; }
+
+/* 마진 아래 */
+
+/* 마진 오른쪽 */
+
+/* 마진 왼쪽 */
+
+
+  /*패딩 5,10 단위만 */
+.padno { padding: 0; }
+
+
+/* 패딩 탑 5,10 단위만 */
+.padtno { padding-top: 0; }
+.pad5a { padding: 5px;}
+/* 패딩 아래 5,10 단위만*/
+
+/* 패딩 오른쪽 5,10 단위만 */
+
+
+/* 패딩 왼쪽 5,10 단위만 */
+
+
+
+
+  /*폰트크기*/
+  .f10 { font-size: 10px; }
+  .f11 { font-size: 11px; }
+  .f12 { font-size: 12px; }
+  .f13 { font-size: 13px; }
+  .f14 { font-size: 14px; }
+  .f15 { font-size: 15px; }
+  .f16 { font-size: 16px; }
+  .f17 { font-size: 17px; }
+  .f18 { font-size: 18px; }
+  .f19 { font-size: 19px; }
+  .f20 { font-size: 20px; }
+  .f21 { font-size: 21px; }
+  .f22 { font-size: 22px; }
+  .f23 { font-size: 23px; }
+  .f24 { font-size: 24px; }
+  .f25 { font-size: 25px; }
+  .f26 { font-size: 26px; }
+  .f36 { font-size: 36px; }
+  .f33 { font-size: 33px; }
+  .f50 { font-size: 50px; }
+  .f100 { font-size: 100px; }
+
+/*------버튼-------*/
+.btn { display: block; width: 201px; height: 73px; background-color: #000; 
+  text-align: center; line-height: 73px; font-family: 'OpenSans'; font-size: 13px; font-weight: bold;}
+.btn:hover { background-color: rgba(255, 255, 255, 0.5); }

@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Regular.ttf") ;
+    
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans:wght@800&display=swap');
+
+
+
+
+/* 헤더영역 */
+
+
+#header .header-logo a {
+    display: block;  
+    width: 178px;
+    height: 57px;
+}
+#header .header-logo a img {
+   
+    text-align: center;
+    margin-top: 39px;
+    
+}
+#header .header-utility {
+    
+    font-weight: bold;
+    font-family: 'Open Sans';  
+    
+}
+#header .header-utility a {
+    display: block;
+    color:#858585;  
+}
+
+#header .header-nav ul { clear: both; }
+#header .header-nav ul li {
+    /* display: inline-block; */
+    float: left;  
+    
+}
+#header .header-nav ul li a {
+  /* display: inline-block; */
+  display: block;
+  padding-left: 40px;
+  box-sizing: border-box;  
+  font-family: 'OpenSans';
+  font-size: 14px; 
+  font-weight: bold;
+  /* src: url('../fonts/OpenSans-Regular.ttf') format('ttf'); */
+}
+#header .header-nav ul li a:hover{
+    color: #0d4bde;
+    transition-duration: .2s;
+    text-decoration: overline;
+    text-decoration-color: #0d4bde;
+}
+#header .header-nav ul li:nth-child(1) a {
+    padding-left: 0;
+}
+#header .header-search {
+    width: 145px;
+    height: 155px;
+    background-color: #0d4bde;     
+    padding: 50px 50px;
+    box-sizing: border-box;
+    
+}
+#header .header-search a i {
+    display: block;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+#header .header-search a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    text-align: center; 
+    width: 50px;
+    height: 57px; 
+    z-index: 99;    
+}
+
+
+/* 비주얼 영역 */
+#visual {
+    background-image: url("../images/help-bg.png") ;
+    display: flex;
+}
+#visual .visual-contsleft {
+    line-height: 45px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+}
+#visual .visual-contsleft p {
+    padding:  141px 0 0 284px ;
+    box-sizing: border-box;
+   
+    color: #fff;
+}
+#visual .visual-conts {
+    padding-top: 150px;
+    padding-left: 200px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #fff;
+    line-height: 16px;
+    
+}
+#visual .visual-conts p:first-child {
+    color: #fff;
+    font-weight: bold;
+    font-family:'OpenSans';
+    font-size: 16px;  
+    line-height: 16px;  
+    margin-bottom: 20px;
+    word-break: break-all;
+    width: 332px;
+     
+    font-style: italic;
+    font-weight: regular;
+  
+}
+#visual .visual-conts p:last-child {
+    width: 332px;
+    height: 280px;   
+    word-break: break-all;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: regular;
+}
+
+
+/*-----서비스 영역-----*/
+#service {
+    
+    background-color: #fff;
+    background-image: url("../images/servicelist-bg.png") ;
+    background-position: no-repeat;
+}
+#service .service-tit{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top:96px;   
+    background: khaki;
+}
+#service .service-tit .servicetit-wrapL {
+    text-align: right;
+    
+}
+#service .service-tit .servicetit-wrapL span{
+    font-family: 'Lato';
+    color: #0d4bde;  
+    font-style: italic;
+    font-weight: 800;
+    
+}
+#service .service-tit .servicetit-wrapL h2 {
+    
+    font-weight: bolder;
+    font-family: 'Open Sans';   
+    margin-top: 20px;    
+}
+#service .service-tit .servicetit-wrapL h2 a {
+    font-weight: bold;
+}
+#service .service-tit .servicetit-wrapR p {
+    
+    color: #999;
+    font-family: 'Lato';
+    font-style: italic;
+    line-height: 26px;
+}
+
+/*서비스 리스트 영역*/
+#service .service-list-box .service-img-box {
+  margin-top: 100px ;  
+  background-image: url("../images/servicelist-bg-01.png") 50% 50% no-repeat;
+}
+#service .service-list-box .service-img-box img {
+    display: inline-block;
+}
+#service .service-list .service-conts h2 {
+    font-family: 'Open Sans';
+    margin-top: 40px;
+    line-height: 30px;
+    font-weight: bold;
+}
+#service .service-list .service-conts p{
+    width: 266px;
+    line-height: 24px;
+    color: #999;
+    font-family: 'Lato';
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    line-height: 30px;
+}
